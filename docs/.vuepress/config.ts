@@ -13,7 +13,7 @@ export default defineUserConfig({
   description: "阿宇的学习笔记",
   head: [
     // 注入到当前页面的 HTML <head> 中的标签
-    ["link", { rel: "icon", href: "/img/logo.png" }],
+    ["link", { rel: "icon", href: "./img/logo.png" }],
     ["meta", { name: "keywords", content: "基础汉英类义词典,全栈学习笔记" }],
   ],
   theme: defaultTheme({
