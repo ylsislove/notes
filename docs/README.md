@@ -17,11 +17,11 @@ const notes = ref([]);
 notes.value = [
     {
         title: '基础汉英类义词典-音频版',
-        imgSrc: 'https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png',
+        imgSrc: './img/cover.jpg',
         update: '2023-04-09 04:28:32'
     },{
         title: '全栈学习笔记',
-        imgSrc: 'https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png',
+        imgSrc: './img/cover2.jpg',
         update: '2023-04-09 04:30:07'
     },
 ]
