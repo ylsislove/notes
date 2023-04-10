@@ -36,6 +36,6 @@ const clickHandler = () => {
   width: 190px;
 }
 .medium-zoom-image {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 </style>
