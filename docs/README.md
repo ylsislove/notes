@@ -1,7 +1,10 @@
 ---
-home: false
+home: true
+heroText: null
+tagline: null
 title: 笔记
-footer: MIT Licensed | Copyright © 2023 WangYu
+footer: © 2020 – 2023 🌸 宇凌喵 @ Aayu Yain<br><br>基于 VuePress 构建 🪧 晋ICP备19006357号-4
+footerHtml: true
 ---
 
 <div class="container">
@@ -30,11 +33,22 @@ notes.value = [
 </script>
 
 <style>
-  .page .theme-default-content {
+  .home {
+    padding: 60px 0 0 0; 
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home .theme-default-content {
     max-width: 60%;
-    margin-top: 3vw;
+    min-height: 70vh;
+    margin: 3vw 20% 2vw 20%;
   }
   .container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
