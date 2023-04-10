@@ -6,7 +6,7 @@ footer: MIT Licensed | Copyright © 2023 WangYu
 
 <div class="container">
   <div class="container-item" v-for="(item) in notes">
-    <Note :title="item.title" :imgSrc="item.imgSrc" :update="item.update"/>
+    <Note :title="item.title" :imgSrc="item.imgSrc" :update="item.update" :path="item.path"/>
   </div>
 </div>
 
@@ -18,11 +18,13 @@ notes.value = [
     {
         title: '基础汉英类义词典-音频版',
         imgSrc: './img/cover.jpg',
-        update: '2023-04-09 04:28:32'
+        update: '2023-04-09 04:28:32',
+        path: 'https://study.aayu.today/thesaurus/'
     },{
         title: '全栈学习笔记',
-        imgSrc: './img/cover2.jpg',
-        update: '2023-04-09 04:30:07'
+        imgSrc: './img/cover2-2-2.jpg',
+        update: '2023-04-09 04:30:07',
+        path: 'https://study.aayu.today/fullstack/'
     },
 ]
 </script>
@@ -30,7 +32,7 @@ notes.value = [
 <style>
   .page .theme-default-content {
     max-width: 60%;
-    margin-top: 60px;
+    margin-top: 3vw;
   }
   .container {
     display: flex;
