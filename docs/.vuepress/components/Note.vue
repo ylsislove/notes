@@ -1,7 +1,7 @@
 <template>
   <a-card hoverable style="width: 240px; margin: 20px;"  @click.stop="clickHandler">
     <template #cover>
-      <img :alt="title" :src="imgSrc" style="width: 240px; height: 300px; object-fit: cover;"/>
+      <img :alt="title" :src="imgSrc" style="width: 240px; height: 260px; object-fit: cover;"/>
     </template>
     <a-card-meta :title="title">
       <template #description>{{ update }}</template>
