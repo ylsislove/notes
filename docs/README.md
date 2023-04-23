@@ -39,7 +39,7 @@ notes.value = [
 
 <style>
   body {
-    background-image: url("./img/bg.png");
+    background-image: url("/img/bg.png");
     background-attachment: fixed;
   }
   .home {
@@ -50,7 +50,7 @@ notes.value = [
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url("./img/bg.png");
+    background-image: url("/img/bg.png");
     background-attachment: fixed;
   }
   .home .theme-default-content {
