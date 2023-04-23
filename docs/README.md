@@ -38,6 +38,10 @@ notes.value = [
 </script>
 
 <style>
+  body {
+    background-image: url("./img/bg.png");
+    background-attachment: fixed;
+  }
   .home {
     padding: 60px 0 0 0; 
     margin: 0;
@@ -46,11 +50,17 @@ notes.value = [
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-image: url("./img/bg.png");
+    background-attachment: fixed;
   }
   .home .theme-default-content {
     max-width: 60%;
-    min-height: 70vh;
+    min-height: 72vh;
     margin: 3vw 20% 2vw 20%;
+  }
+  .home .footer {
+    padding: 1.5rem;
+    border-top: unset;
   }
   .container {
     width: 100%;
