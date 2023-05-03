@@ -3,7 +3,7 @@ home: true
 heroText: null
 tagline: null
 title: 笔记
-footer: © 2020 – 2023 🌸 宇凌喵 @ Aayu Yain<br><br>🪧 晋ICP备19006357号-4
+footer: © 2022 – 2023 🌸 宇凌喵 @ Aayu Yain<br><br>🪧 晋ICP备19006357号-4
 footerHtml: true
 ---
 
@@ -20,17 +20,17 @@ const notes = ref([]);
 notes.value = [
     {
         title: '基础汉英类义词典-音频版',
-        imgSrc: './img/cover.jpg',
+        imgSrc: './img/cover-1.jpg',
         update: '2023-04-09 04:28:32',
         path: 'https://study.aayu.today/thesaurus/'
     },{
         title: '全栈学习笔记',
-        imgSrc: './img/cover2-2-2.jpg',
+        imgSrc: './img/cover2-2-2-2.jpg',
         update: '2023-04-09 04:30:07',
         path: 'https://study.aayu.today/fullstack/'
     },{
         title: '书籍阅读',
-        imgSrc: './img/cover3.jpg',
+        imgSrc: './img/cover3-3.jpg',
         update: '2023-04-22 22:22:08',
         path: 'https://study.aayu.today/books/'
     },
