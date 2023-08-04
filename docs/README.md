@@ -23,17 +23,19 @@ notes.value = [
         imgSrc: './img/cover-1.jpg',
         update: '2023-04-09 04:28:32',
         path: 'https://study.aayu.today/thesaurus/'
-    },{
+    },
+    {
         title: '全栈学习笔记',
         imgSrc: './img/cover2-2-2-2.jpg',
         update: '2023-04-09 04:30:07',
         path: 'https://study.aayu.today/fullstack/'
-    },{
-        title: '书籍阅读',
-        imgSrc: './img/cover3-3.jpg',
-        update: '2023-04-22 22:22:08',
-        path: 'https://study.aayu.today/books/'
     },
+    // {
+    //     title: '书籍阅读',
+    //     imgSrc: './img/cover3-3.jpg',
+    //     update: '2023-04-22 22:22:08',
+    //     path: 'https://study.aayu.today/books/'
+    // },
 ]
 </script>
 
